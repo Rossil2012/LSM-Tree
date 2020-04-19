@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Debug test",
+            "type": "cppdbg",
+            "request": "launch",
+            // "targetArchitecture": "x64",
+            "program": "${workspaceRoot}/test",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": false,
+            "linux": {
+                "MIMode": "gdb"
+            },
+            "osx": {
+                "MIMode": "lldb"
+            },
+            "windows": {
+                "MIMode": "gdb",
+                "miDebuggerPath": "gdb.exe"
+            },
+            "preLaunchTask": "Build test"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "stdexcept": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "random": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "iterator": "cpp",
+        "filesystem": "cpp",
+        "ostream": "cpp",
+        "string": "cpp",
+        "bitset": "cpp"
+    }
+}
